@@ -1,0 +1,40 @@
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+    align-items: center;
+    padding: 10px;
+    height: 120px;
+    cursor: pointer;
+    transition: all .3s ease-in-out !important;
+}
+.info-box__title{
+    letter-spacing: 1px;
+    font-size: 20px !important;
+}
+.info-box__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+  }
+  .info-box__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+  }
+  .info-box__cases--green {
+    color: lightgreen !important;
+  }
+  .info-box--selected {
+    border-top: 7px solid greenyellow;
+  }
+  
+  .info-box--red {
+    border-color: red;
+  }
+  
+  .info-box__cases--green {
+    color: lightgreen !important;
+  }
+  

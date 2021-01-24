@@ -1,0 +1,9 @@
+.table{
+    height: 428px !important;
+    overflow: scroll;
+    margin-top: 7px;
+    color: #6a5d5d;
+}
+.table tr:nth-last-of-type(odd){
+   background-color: #f3f2f8; 
+}
